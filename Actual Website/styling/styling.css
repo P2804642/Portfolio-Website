@@ -1,0 +1,158 @@
+body {
+    background-image: url(../imagez/properbackground.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+footer {
+    font-family:'Courier New', Courier, monospace; text-align: center; color: white;
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    bottom: 0px;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+header {
+    font-family:'Courier New', Courier, monospace; text-align: center; color: white;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+}
+
+.spacer {
+    height: 140px;
+}
+
+f1 {
+font-size: 1.5em;
+}
+
+button {
+    background: transparent;
+    position: relative;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgb(255,0,212);
+    border-radius: 25px;
+    outline: none;
+    overflow: hidden;
+    color: rgb(255,0,212);
+    transition: color 0.3s 0.1s ease-out;
+    text-align: center;
+  }
+  
+  button span {
+    margin: 10px;
+  }
+  
+  button::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    content: '';
+    border-radius: 50%;
+    display: block;
+    width: 20em;
+    height: 20em;
+    left: -5em;
+    text-align: center;
+    transition: box-shadow 0.5s ease-out;
+    z-index: -1;
+  }
+  
+  button:hover {
+    color: #fff;
+    border: 1px solid rgb(255, 0, 212);
+  }
+  
+  button:hover::before {
+    box-shadow: inset 0 0 0 10em rgb(255, 0, 212);
+  }
+
+  div.gallery {
+    margin: 190px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 300%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  div.blankspace {
+    height: 100px;
+
+  }
+
+  h3 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 3em;
+    text-align:center;
+  }
+
+  div.space {
+    height: 75px;
+  }
+
+  div.spacey {
+    height: 50px;
+  }
+  video {
+    padding-left: 875px;
+  }
+
+  h4 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 3em;
+    padding-left: 20px;
+
+  }
+
+  p {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    padding-left: 20px;
+  }
