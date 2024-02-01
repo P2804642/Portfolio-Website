@@ -1,4 +1,4 @@
-<!-- This css stylesheet documents all the css code used in my website and neatly seperates it from the html so as to not overcomplicate the code and also simplify the addition of css code to the website-->
+
 body {
     background-image: url(../imagez/properbackground.png);
     background-repeat: no-repeat;
@@ -6,7 +6,6 @@ body {
     background-size: cover;
     margin: 0;
 }
-<!-- This css element tells the program which image is used as the background of the pages and changes the size of the image so that it fills the background of the website with just the one image-->
 
 header h1 {
     margin: 0;
@@ -21,8 +20,7 @@ footer {
     position: fixed;
     bottom: 0px;
 }
-<!-- this is the css element that i had to override in the index file, more specifically the position value had to be changed to relative instead of fixed so that the footer would still appear at the bottom of the page but only after the reader has scrolled to the bottom--> 
-nav {
+
     background-color: black;
     padding: 10px;
     text-align: center;
@@ -43,7 +41,7 @@ header {
     width: 100%;
     padding: 10px;
 }
-<!-- This line of code adds the header to the page and determines what font the text will appear in, giving mulitple options in order in case a specific browser doesnt support a specific font-->
+
 .spacer {
     height: 140px;
 }
@@ -60,7 +58,7 @@ font-size: 1.5em;
     float: left;
     width: 180px;
   }
-  <!-- the margin value in this css code prevents the pictures from overlapping and covering one another-->
+  
   div.gallery:hover {
     border: 1px solid #777;
   }
