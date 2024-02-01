@@ -60,7 +60,7 @@ font-size: 1.5em;
     float: left;
     width: 180px;
   }
-  
+  <!-- the margin value in this css code prevents the pictures from overlapping and covering one another-->
   div.gallery:hover {
     border: 1px solid #777;
   }
