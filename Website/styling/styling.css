@@ -94,7 +94,8 @@ font-size: 1.5em;
     height: 50px;
   }
   video {
-    padding-left: 875px;
+    margin-left: auto;
+    margin-right: auto;  
   }
 
   h4 {
