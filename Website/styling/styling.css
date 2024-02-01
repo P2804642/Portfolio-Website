@@ -95,7 +95,8 @@ font-size: 1.5em;
   }
   video {
     margin-left: auto;
-    margin-right: auto;  
+    margin-right: auto; 
+    display: block;  
   }
 
   h4 {
