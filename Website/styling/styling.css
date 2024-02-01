@@ -1,3 +1,4 @@
+<!-- This css stylesheet documents all the css code used in my website and neatly seperates it from the html so as to not overcomplicate the code and also simplify the addition of css code to the website-->
 body {
     background-image: url(../imagez/properbackground.png);
     background-repeat: no-repeat;
@@ -5,7 +6,7 @@ body {
     background-size: cover;
     margin: 0;
 }
-
+<!-- This css element tells the program which image is used as the background of the pages and changes the size of the image so that it fills the background of the website with just the one image-->
 
 header h1 {
     margin: 0;
@@ -20,7 +21,7 @@ footer {
     position: fixed;
     bottom: 0px;
 }
-
+<!-- this is the css element that i had to override in the index file, more specifically the position value had to be changed to relative instead of fixed so that the footer would still appear at the bottom of the page but only after the reader has scrolled to the bottom--> 
 nav {
     background-color: black;
     padding: 10px;
@@ -42,7 +43,7 @@ header {
     width: 100%;
     padding: 10px;
 }
-
+<!-- This line of code adds the header to the page and determines what font the text will appear in, giving mulitple options in order in case a specific browser doesnt support a specific font-->
 .spacer {
     height: 140px;
 }
@@ -51,55 +52,7 @@ f1 {
 font-size: 1.5em;
 }
 
-button {
-    background: transparent;
-    position: relative;
-    padding: 5px 15px;
-    display: flex;
-    align-items: center;
-    font-size: 17px;
-    font-weight: 600;
-    text-decoration: none;
-    cursor: pointer;
-    border: 1px solid rgb(255,0,212);
-    border-radius: 25px;
-    outline: none;
-    overflow: hidden;
-    color: rgb(255,0,212);
-    transition: color 0.3s 0.1s ease-out;
-    text-align: center;
-  }
-  
-  button span {
-    margin: 10px;
-  }
-  
-  button::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    content: '';
-    border-radius: 50%;
-    display: block;
-    width: 20em;
-    height: 20em;
-    left: -5em;
-    text-align: center;
-    transition: box-shadow 0.5s ease-out;
-    z-index: -1;
-  }
-  
-  button:hover {
-    color: #fff;
-    border: 1px solid rgb(255, 0, 212);
-  }
-  
-  button:hover::before {
-    box-shadow: inset 0 0 0 10em rgb(255, 0, 212);
-  }
+
 
   div.gallery {
     margin: 190px;
